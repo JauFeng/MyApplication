@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">MyApp</string>
+
+    <!-- Activity Title -->
+    <string name="title_order_detail">Order Detail</string>
+    <string name="title_activity_main">Main Activity</string>
+
+    <!-- Tool Action Bar -->
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_profile">Me</string>
+
+    <!-- Section-->
+    <string name="section_one">Get Care</string>
+    <string name="section_Two">My Doctor</string>
+    <string name="section_Three">History</string>
+    <string name="section_one_label">Order Alter</string>
+    <string name="section_format">Section: %1$d</string>
+</resources>

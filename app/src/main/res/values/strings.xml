@@ -1,0 +1,96 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">MyApp</string>
+
+    <!-- Activity Title -->
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_main">Main</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_choose_section">Choose Section</string>
+    <string name="title_activity_order_detail">Order Detail</string>
+    <string name="title_activity_doctor_detail">Doctor Detail</string>
+
+    <!-- Tool Action Bar -->
+    <string name="action_settings">设置</string>
+    <string name="action_search">搜索</string>
+    <string name="action_profile">我</string>
+
+    <!-- Section -->
+    <string name="section_one"> 预约 </string>
+    <string name="section_Two">我的医生</string>
+    <string name="section_Three">预约记录</string>
+    <string name="section_one_label">预约提醒</string>
+    <string name="section_two_label">Two</string>
+    <string name="section_three_label">Three</string>
+    <string name="section_format">Section: %1$d</string>
+
+    <!-- Login -->
+    <string name="prompt_mobile">手机号</string>
+    <string name="prompt_password">密码 (最少8位)</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">登陆</string>
+    <string name="error_invalid_mobile">这不是一个手机号</string>
+    <string name="error_invalid_password">密码过短</string>
+    <string name="error_incorrect_password">密码不正确</string>
+    <string name="error_field_required">该字段必填</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+</resources>
