@@ -39,7 +39,7 @@ public class DummyOrders {
 
     private static DummyOrder createDummyOrder(int position) {
         String id = String.valueOf(position);
-        return new DummyOrder(id, "专家预约", "牟小芬", "妇产科",
+        return new DummyOrder(id, "专家预约", "牟小芬", "妇产科主治医师",
                 "中国人民解放军301医院", "北京市朝阳区林萃路1号院国奥村花园酒店2008室",
                 "1月16日 周三 上午", "2000", "details");
     }

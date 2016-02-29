@@ -12,12 +12,13 @@
         app:actionViewClass="android.support.v7.widget.SearchView" />
 
     <!-- Profile -->
+    <!--
     <item
         android:id="@+id/action_profile"
         android:title="@string/action_profile"
         android:icon="@drawable/ic_person_white_48dp"
         app:showAsAction="always" />
-
+    -->
     <!-- Setting -->
     <item
         android:id="@+id/action_settings"
