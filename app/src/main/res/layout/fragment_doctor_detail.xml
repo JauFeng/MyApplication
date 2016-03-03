@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_vertical_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".view.fragments.DoctorDetailFragment">
+    tools:context="myapplication.ui.fragments.DoctorDetailFragment">
 
 
     <android.support.design.internal.ForegroundLinearLayout

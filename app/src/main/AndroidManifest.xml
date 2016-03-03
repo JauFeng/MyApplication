@@ -3,9 +3,9 @@
     package="com.turing.sean.myapplication">
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-    <uses-permission android:name="android.permission.READ_PROFILE" />
-    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -16,7 +16,7 @@
 
         <!-- Login Activity -->
         <activity
-            android:name=".view.activities.LoginActivity"
+            android:name="myapplication.ui.activities.LoginActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,51 +27,51 @@
 
         <!-- Main Activity -->
         <activity
-            android:name=".MainActivity"
+            android:name="myapplication.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <!-- Setting Activity -->
         <activity
-            android:name=".view.activities.SettingsActivity"
+            android:name="myapplication.ui.activities.SettingsActivity"
             android:label="@string/title_activity_settings"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="myapplication.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.turing.sean.myapplication.MainActivity" />
+                android:value="myapplication.MainActivity" />
         </activity>
 
         <!-- Order Detail Activity -->
         <activity
-            android:name=".view.activities.OrderDetailActivity"
+            android:name="myapplication.ui.activities.OrderDetailActivity"
             android:label="@string/title_activity_order_detail"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName="myapplication.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.turing.sean.myapplication.MainActivity" />
+                android:value="myapplication.MainActivity" />
         </activity>
 
         <!-- Choose Section Activity -->
         <activity
-            android:name=".view.activities.ChooseSectionActivity"
+            android:name="myapplication.ui.activities.ChooseSectionActivity"
             android:label="@string/title_activity_choose_section"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName="myapplication.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.turing.sean.myapplication.MainActivity" />
+                android:value="myapplication.MainActivity" />
         </activity>
 
         <!-- Doctor Detail Activity -->
         <activity
-            android:name=".view.activities.DoctorDetailActivity"
+            android:name="myapplication.ui.activities.DoctorDetailActivity"
             android:label="@string/title_activity_doctor_detail"
-            android:parentActivityName=".view.activities.ChooseSectionActivity"
+            android:parentActivityName="myapplication.ui.activities.ChooseSectionActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.turing.sean.myapplication.view.activities.ChooseSectionActivity" />
+                android:value="myapplication.ui.activities.ChooseSectionActivity" />
         </activity>
         <activity
             android:name=".Main2Activity"

@@ -9,5 +9,5 @@
     android:layout_marginLeft="16dp"
     android:layout_marginRight="16dp"
     app:layoutManager="LinearLayoutManager"
-    tools:context="com.turing.sean.myapplication.view.activities.ChooseSectionActivity"
+    tools:context="myapplication.ui.activities.ChooseSectionActivity"
     tools:listitem="@layout/layout_doctor_list_content" />
